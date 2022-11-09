@@ -18,8 +18,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
   // initial properties
   let rowsOfInvaders = 4
   var invaderSpeed = 2
-  let leftBounds = CGFloat(30)
-  var rightBounds = CGFloat(0)
+  let leftBounds = CGFloat(0)//CGFloat(30)
+  var rightBounds = CGFloat(400)//CGFloat(0)
   var invadersWhoCanFire:[Invader] = [Invader]()  // will increase with each level
   let player:Player = Player()
   let maxLevels = 3
