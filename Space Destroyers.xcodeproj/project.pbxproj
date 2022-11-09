@@ -8,25 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		16F5D018291AD91C00476D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D017291AD91C00476D03 /* AppDelegate.swift */; };
-		16F5D01A291AD91D00476D03 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 16F5D019291AD91D00476D03 /* GameScene.sks */; };
 		16F5D01C291AD91D00476D03 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 16F5D01B291AD91D00476D03 /* Actions.sks */; };
 		16F5D01E291AD91D00476D03 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D01D291AD91D00476D03 /* GameScene.swift */; };
 		16F5D020291AD91D00476D03 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D01F291AD91D00476D03 /* GameViewController.swift */; };
 		16F5D023291AD91D00476D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F5D021291AD91D00476D03 /* Main.storyboard */; };
 		16F5D025291AD92000476D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F5D024291AD92000476D03 /* Assets.xcassets */; };
 		16F5D028291AD92000476D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F5D026291AD92000476D03 /* LaunchScreen.storyboard */; };
+		16F5D031291ADBB500476D03 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D030291ADBB500476D03 /* StartGameScene.swift */; };
+		16F5D033291ADEBA00476D03 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D032291ADEBA00476D03 /* Invader.swift */; };
+		16F5D035291ADF0400476D03 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D034291ADF0400476D03 /* Player.swift */; };
+		16F5D037291AF6AF00476D03 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D036291AF6AF00476D03 /* Bullet.swift */; };
+		16F5D039291AF70B00476D03 /* InvaderBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D038291AF70B00476D03 /* InvaderBullet.swift */; };
+		16F5D03B291AF72000476D03 /* PlayerBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D03A291AF72000476D03 /* PlayerBullet.swift */; };
+		16F5D03D291C28BD00476D03 /* CollisionCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D03C291C28BD00476D03 /* CollisionCategories.swift */; };
+		16F5D03F291C2EC500476D03 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5D03E291C2EC500476D03 /* LevelCompleteScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16F5D014291AD91C00476D03 /* Space Destroyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Destroyers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F5D017291AD91C00476D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16F5D019291AD91D00476D03 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		16F5D01B291AD91D00476D03 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		16F5D01D291AD91D00476D03 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		16F5D01F291AD91D00476D03 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		16F5D022291AD91D00476D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16F5D024291AD92000476D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16F5D027291AD92000476D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16F5D030291ADBB500476D03 /* StartGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
+		16F5D032291ADEBA00476D03 /* Invader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		16F5D034291ADF0400476D03 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		16F5D036291AF6AF00476D03 /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		16F5D038291AF70B00476D03 /* InvaderBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvaderBullet.swift; sourceTree = "<group>"; };
+		16F5D03A291AF72000476D03 /* PlayerBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBullet.swift; sourceTree = "<group>"; };
+		16F5D03C291C28BD00476D03 /* CollisionCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionCategories.swift; sourceTree = "<group>"; };
+		16F5D03E291C2EC500476D03 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,16 +73,39 @@
 		16F5D016291AD91C00476D03 /* Space Destroyers */ = {
 			isa = PBXGroup;
 			children = (
+				16F5D02F291ADA7B00476D03 /* Models */,
 				16F5D017291AD91C00476D03 /* AppDelegate.swift */,
-				16F5D019291AD91D00476D03 /* GameScene.sks */,
 				16F5D01B291AD91D00476D03 /* Actions.sks */,
-				16F5D01D291AD91D00476D03 /* GameScene.swift */,
+				16F5D02E291ADA4100476D03 /* Scenes */,
 				16F5D01F291AD91D00476D03 /* GameViewController.swift */,
 				16F5D021291AD91D00476D03 /* Main.storyboard */,
 				16F5D024291AD92000476D03 /* Assets.xcassets */,
 				16F5D026291AD92000476D03 /* LaunchScreen.storyboard */,
 			);
 			path = "Space Destroyers";
+			sourceTree = "<group>";
+		};
+		16F5D02E291ADA4100476D03 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				16F5D01D291AD91D00476D03 /* GameScene.swift */,
+				16F5D030291ADBB500476D03 /* StartGameScene.swift */,
+				16F5D03E291C2EC500476D03 /* LevelCompleteScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		16F5D02F291ADA7B00476D03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16F5D032291ADEBA00476D03 /* Invader.swift */,
+				16F5D034291ADF0400476D03 /* Player.swift */,
+				16F5D036291AF6AF00476D03 /* Bullet.swift */,
+				16F5D038291AF70B00476D03 /* InvaderBullet.swift */,
+				16F5D03A291AF72000476D03 /* PlayerBullet.swift */,
+				16F5D03C291C28BD00476D03 /* CollisionCategories.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F5D023291AD91D00476D03 /* Main.storyboard in Resources */,
-				16F5D01A291AD91D00476D03 /* GameScene.sks in Resources */,
 				16F5D025291AD92000476D03 /* Assets.xcassets in Resources */,
 				16F5D028291AD92000476D03 /* LaunchScreen.storyboard in Resources */,
 				16F5D01C291AD91D00476D03 /* Actions.sks in Resources */,
@@ -144,9 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F5D03B291AF72000476D03 /* PlayerBullet.swift in Sources */,
 				16F5D01E291AD91D00476D03 /* GameScene.swift in Sources */,
+				16F5D031291ADBB500476D03 /* StartGameScene.swift in Sources */,
+				16F5D03F291C2EC500476D03 /* LevelCompleteScene.swift in Sources */,
+				16F5D033291ADEBA00476D03 /* Invader.swift in Sources */,
+				16F5D03D291C28BD00476D03 /* CollisionCategories.swift in Sources */,
+				16F5D037291AF6AF00476D03 /* Bullet.swift in Sources */,
 				16F5D020291AD91D00476D03 /* GameViewController.swift in Sources */,
+				16F5D035291ADF0400476D03 /* Player.swift in Sources */,
 				16F5D018291AD91C00476D03 /* AppDelegate.swift in Sources */,
+				16F5D039291AF70B00476D03 /* InvaderBullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
